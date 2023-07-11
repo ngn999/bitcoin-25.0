@@ -2,5 +2,13 @@
   "files.associations": {
     "iosfwd": "cpp"
   },
-  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/Users/guinengni/code/cc/bitcoin-25.0/src",
+      "binaryPath": "/Users/guinengni/code/cc/bitcoin-25.0/src/bitcoind",
+      "binaryArgs": []
+    }
+  ],
+  "makefile.alwaysPreConfigure": false
 }
