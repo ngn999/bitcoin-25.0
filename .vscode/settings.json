@@ -10,5 +10,6 @@
       "binaryArgs": []
     }
   ],
-  "makefile.alwaysPreConfigure": false
+  "makefile.alwaysPreConfigure": false,
+  "C_Cpp.errorSquiggles": "enabled"
 }
