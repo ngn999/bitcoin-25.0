@@ -9,7 +9,12 @@
         <option name="buildSystemName" value="GNU Autotools" />
         <option name="buildTarget" value="check" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="preConfigureCommands" value="#!/bin/sh&#10;#&#10;# GNU Autotools template, feel free to customize.&#10;#&#10;which autoreconf &gt;/dev/null &amp;&amp; autoreconf --install --force --verbose &quot;${PROJECT_DIR:-..}&quot; 2&gt;&amp;1; /bin/sh &quot;${PROJECT_DIR:-..}/configure&quot;" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="preConfigureCommands" value="#!/bin/sh&#10;#&#10;# GNU Autotools template, feel free to customize.&#10;#&#10;which autoreconf &gt;/dev/null &amp;&amp; autoreconf --install --force --verbose &quot;${PROJECT_DIR:-..}&quot; 2&gt;&amp;1; /bin/sh &quot;${PROJECT_DIR:-..}/configure&quot; --enable-debug --disable-asm --disable-tests --disable-gui-test --disable-bench --disable-ccache --disable-zmq --disable-man --disable-largefile --with-gui=no --without-bdb --enable-c++20 --enable-util-cli --enable-util-tx --enable-util-wallet --enable-util-util" />
         <option name="switches" value="--makefile=Makefile " />
         <option name="version" value="2" />
       </MakefileProjectSettings>
